@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lobster&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.global-header {
+    display: flex;
+    background-color: #171a21;
+    height: 104px;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+
+.global-header > a .logo {
+    width: 176px;
+    height: 44px;
+    margin-left: 180px;
+}
+
+.menu-item-navbar {
+    margin-left: 30px;
+}
+
+.menu-item-navbar a {
+    padding: 0 8px;
+    color: #b8b6b4;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.menu-item-navbar a:hover {
+    color: white;
+}
+
+.second-global-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #b8b6b4;
+    font-size: 12px;
+    margin-left: 160px;
+    margin-top: -69px;
+}
+
+.second-global-nav a {
+    text-decoration: none;
+    color: #b8b6b4;
+    font-family: sans-serif;
+}
+
+.second-global-nav a:hover {
+    color: white;
+}
+
+.second-item-footer a {
+    width: 122px;
+    height: 24px;
+    padding: 4px 12px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #E5E4DC;
+    text-decoration: none;
+    background-color: #5c7e10;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.right {
+    width: 50%;
+    height: 100vh;
+    background-color: #23262E;
+    font-family: sans-serif;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 70%;
+    color: #b8b6b4;
+    background-color: #23262E;
+}
+
+.content-right-write {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    gap: 3px;
+    margin-top: 90px;
+}
+
+.content-right-write a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.content-right-write a:hover {
+    color: #66C0F4;
+}
+
+.content-right img {
+    width: 320px;
+    height: 218px;
+}
+
+.second-content-write {
+    font-size: 14px;
+}
+
+.content-right button {
+    background-color: transparent;
+    padding: 6px 18px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: solid 0.3px #838281;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.content-right button:hover {
+    border: solid 0.5px white;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    height: 100vh;
+    background-image: url(images/leftbackground.jpg);
+    background-size: 1120px;
+    background-position: 530px -99px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 100vh;
+}
+
+.content-title-left {
+    color: white;
+    font-size: 15px;
+    font-family: 'Julius Sans One';
+    margin-top: 42px;
+    margin-bottom: 34px;
+    letter-spacing: 2px;
+}
+
+.content-left form {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-left form > label {
+    color: #b8b6b4;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.content-left form > input {
+    background-color: #32353c;
+    padding: 8px 6px;
+    width: 293px;
+    height: 37px;
+    outline: none;
+    border: solid 1px #23262E;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 17px;
+}
+
+.content-left #button {
+    width: 250px;
+    height: 36px;
+    font-size: 15px;
+    font-family: Arial;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin-left: 17px;
+    color: #C3E1F8;
+    text-shadow: 0.38px 0.38px 1px black;
+    background-image: linear-gradient(to left,#0f6eb3, #3e82da,#4db9f7);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.555);
+    cursor: pointer;
+}
+
+.content-left #button:hover {
+    background-image: linear-gradient(to left,#1A9FFF,#00BBFF, #66C0F4);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.555);
+}
+
+.content-left a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-left: 71px;
+}
+
+.content-left a:hover {
+    color: #66C0F4;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #171a21;
+    height: 215px;
+    width: 100%;
+}
+
+.content-footer {
+    margin-top: 30px;
+    width: 940px;
+    height: 112px;
+}
+
+.rule {
+    border-top: solid 0.1px #838281;
+    height: 9px;
+}
+
+.content-logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-logos img {
+    width: 88px;
+    height: 25px;
+}
+
+.content-write-footer {
+    margin-top: 4px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #838281;
+}
+
+.second-content-write-footer {
+    margin-top: 2px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #838281;
+    margin-bottom: 14px;
+}
+
+.second-content-write-footer a {
+    color: #c6d4df;
+    text-decoration: none;
+}
+
+.second-content-write-footer a:hover {
+    color: white;
+}
+
+.third-content-write-footer {
+    color: #838281;
+    margin-top: 5px;
+}
+
+.third-content-write-footer a {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c6d4df;
+    text-decoration: none;
+}
+
+.third-content-write-footer a:hover {
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .global-header {
+        display: none;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .left {
+        background-image: none;
+        background-color: #171a21;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-left {
+        margin-left: 130px;
+    }
+    .right {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-right {
+        margin-left: 130px;
+    }
+    .footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 485px){
+    .content-left {
+        margin-right: 120px;
+    }
+    .content-right {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .content-left {
+        margin-left: 0;
+    }
+    .content-right {
+        margin-left: 35px;
+    }
+}
